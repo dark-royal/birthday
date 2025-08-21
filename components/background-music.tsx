@@ -10,7 +10,7 @@ export default function BackgroundMusic() {
 
   // Initialize audio on first render
   useEffect(() => {
-    audioRef.current = new Audio('/happy-birthday.mp3');
+    audioRef.current = new Audio('/simi-song.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.6; // 60% volume
 
