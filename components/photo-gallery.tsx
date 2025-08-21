@@ -6,31 +6,119 @@ import { Button } from "@/components/ui/button"
 
 const photos = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250821-WA0003.jpg-Y4fvyV5jNPNyE8Jd4U2XenDGzDSlC5.jpeg",
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788212/IMG-20250821-WA0003_hw5gqs.jpg",
     alt: "Professional in yellow suit",
     caption: "Radiating confidence and style! ✨",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250821-WA0002.jpg-eMNoPpmdpiTkll4XunJZRXTvwBvvRd.jpeg",
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788214/IMG-20250821-WA0002_vq9y6z.jpg",
     alt: "Elegant in pink dress",
     caption: "Absolutely stunning in pink! 💖",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250821-WA0005.jpg-QkS9oIRGPTzN2V8VNrDU2AGW0rPWad.jpeg",
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788214/IMG-20250821-WA0005_fbyqpe.jpg",
     alt: "Colorful floral outfit",
     caption: "Celebrating culture and heritage! 🌺",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250821-WA0001.jpg-GVjU3VHHoaFuYgVxMXRYluCfWQe8M3.jpeg",
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788212/IMG-20250821-WA0001_kdxq7p.jpg",
     alt: "Instagram frame photo",
     caption: "Always camera-ready! 📸",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250821-WA0004.jpg-au1K7Zre38fj10x2NBPbYSFL8J6mxf.jpeg",
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788215/IMG-20250821-WA0004_mlfhsy.jpg",
     alt: "Elegant evening gown",
     caption: "Elegance personified! 👑",
   },
-]
+  // --- New ones you added ---
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788214/IMG-20250821-WA0019_ltjm4i.jpg",
+    alt: "Joyful moment",
+    caption: "Smiles that light up the room! 🌟",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788215/IMG-20250821-WA0020_andase.jpg",
+    alt: "Chic outfit",
+    caption: "Serving looks effortlessly! 💎",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788215/IMG-20250821-WA0021_u64uff.jpg",
+    alt: "Bright dress",
+    caption: "Shining brighter than the sun! ☀️",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788215/IMG-20250821-WA0022_aryhue.jpg",
+    alt: "Traditional attire",
+    caption: "Proudly embracing culture! 🌍",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788216/IMG-20250821-WA0024_xl1oyk.jpg",
+    alt: "Bold fashion",
+    caption: "Confidence looks good on you! 🔥",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788217/IMG-20250821-WA0025_dqcmk8.jpg",
+    alt: "Glamorous pose",
+    caption: "Dripping in elegance and grace! ✨",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788217/IMG-20250821-WA0018_upegtp.jpg",
+    alt: "Relaxed style",
+    caption: "Chill vibes, pure beauty 🌸",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788217/IMG-20250821-WA0028_gpxvbe.jpg",
+    alt: "Bright smile",
+    caption: "Happiness looks perfect on you! 😍",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788217/IMG-20250821-WA0026_unk9si.jpg",
+    alt: "Outdoor beauty",
+    caption: "Glowing under the sunshine! 🌞",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788217/IMG-20250821-WA0027_utoftv.jpg",
+    alt: "Elegant sit-down",
+    caption: "Poise and elegance in every move 💃",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788218/IMG-20250821-WA0023_jxckwu.jpg",
+    alt: "Bright and casual",
+    caption: "Simple yet breathtaking! 🌹",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788219/IMG-20250821-WA0031_tso9dx.jpg",
+    alt: "Evening vibes",
+    caption: "Owning the night with grace 🌙",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788219/IMG-20250821-WA0029_cymrtd.jpg",
+    alt: "Outdoor portrait",
+    caption: "Nature makes the beauty glow even more 🌿",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788221/IMG-20250821-WA0030_uyhztf.jpg",
+    alt: "Elegant evening look",
+    caption: "Pure sophistication! 💫",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788222/IMG-20250821-WA0032_yvah56.jpg",
+    alt: "Confident smile",
+    caption: "Smiling into greatness! 🌼",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788222/IMG-20250821-WA0034_tbas7d.jpg",
+    alt: "Radiant beauty",
+    caption: "Every angle, flawless! 💕",
+  },
+  {
+    src: "https://res.cloudinary.com/dkbxro8sb/image/upload/v1755788223/IMG-20250821-WA0033_salne4.jpg",
+    alt: "Traditional gown",
+    caption: "A queen in every sense 👑",
+  },
+];
+
+
 
 export default function PhotoGallery() {
   const [selectedPhoto, setSelectedPhoto] = useState(0)
